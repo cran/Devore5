@@ -34,7 +34,7 @@ stem(temp)
 hist(temp, xlab = "Temperature (deg. F)")
 rug(temp)
 hist(temp, xlab = "Temperature (deg. F)",
-     prob = T, col = "lightgray")
+     prob = TRUE, col = "lightgray")
 lines(density(temp), col = "blue")
 rug(temp)
 detach()

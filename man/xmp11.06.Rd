@@ -33,9 +33,6 @@
 }
 \examples{
 data(xmp11.06)
-xmp11.06$Stimulus <- factor(xmp11.06$Stimulus,
-  labels = c("L1", "L2", "T", "L1 + L2", "L1 + T", "L2 + T"))
-xmp11.06$Subject <- factor(xmp11.06$Subject)
 plot(Resp ~ Stimulus, data = xmp11.06, col = "lightgray",
      main = "Data from Example 11.6",
      ylab = "Mean number of responses")

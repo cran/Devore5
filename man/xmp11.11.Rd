@@ -32,9 +32,6 @@
 }
 \examples{
 data(xmp11.11)
-xmp11.11$Period <- factor(xmp11.11$Period)
-xmp11.11$Strain <- factor(xmp11.11$Strain)
-xmp11.11$Coat <- factor(xmp11.11$Coat)
 coplot(Tempr ~ as.integer(Period) | Strain * Coat,
        data = xmp11.11, show.given = FALSE)
 coplot(Tempr ~ as.integer(Strain) | Period * Coat,

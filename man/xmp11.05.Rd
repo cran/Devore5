@@ -30,8 +30,6 @@
 }
 \examples{
 data(xmp11.05)
-xmp11.05$brand <- factor(xmp11.05$brand)
-xmp11.05$humid <- ordered(xmp11.05$humid)
 plot(power ~ humid, data = xmp11.05, col = "lightgray",
      xlab = "Level of humidity",
      ylab = "Estimated annual power consumption (kwh)",

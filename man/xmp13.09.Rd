@@ -29,7 +29,7 @@ data(xmp13.09)
 plot(strength ~ tempture, data = xmp13.09)
 fm1 <- lm(strength ~ tempture + I(tempture^2), data = xmp13.09)
 summary(fm1)
-xmp13.09$Tcentered <- scale(xmp13.09$tempture, scale = F)
+xmp13.09$Tcentered <- scale(xmp13.09$tempture, scale = FALSE)
 fm2 <- lm(strength ~ Tcentered + I(Tcentered^2), data = xmp13.09)
 summary(fm2)
 ## another approach using orthogonal polynomials

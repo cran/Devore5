@@ -33,11 +33,6 @@
 }
 \examples{
 data(xmp11.07)
-xmp11.07$Variety <- factor(xmp11.07$Variety,
-  labels = c("Harvester", "Pusa Early Dwarf", "Ife No 1"))
-## use an ordered factor for the density
-xmp11.07$Density <- ordered(xmp11.07$Density,
-  labels = paste(1:4, "0000", sep = ""))
 plot(Yield ~ Density, data = xmp11.07, col = "lightgray",
   main = "Data from Example 11.7, page 450",
   xlab = "Density (plants/hectare)")
