@@ -37,7 +37,7 @@ boxplot(strength, col = "lightgray", notch = TRUE,
         ylab = "Flexural strength (MPa)",
         main = "Boxplot of strength",
         sub =
-"Notches show a 95% confidence interval on the median strength")
+"Notches show a 95\% confidence interval on the median strength")
 detach()
 }
 \keyword{datasets}

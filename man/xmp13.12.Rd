@@ -20,7 +20,7 @@ a numeric vector
 \item{28-day.compt.str..(Mpa)}{
 a numeric vector
 }
-\item{Absorbability.(%)}{
+\item{Absorbability.(\%)}{
 a numeric vector
 }
 }

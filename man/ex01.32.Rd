@@ -11,7 +11,7 @@ This data frame contains the following columns:
 \item{Value}{
 a numeric vector
 }
-\item{Cumulative.%}{
+\item{Cumulative.\%}{
 a numeric vector
 }
 }

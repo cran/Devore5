@@ -1,0 +1,6 @@
+2000-02-07  Douglas Bates  <bates@stat.wisc.edu>
+
+	* DESCRIPTION (Date): Escaped the % characters in the .Rd files.
+	This version now passes a R CMD check.
+	
+
