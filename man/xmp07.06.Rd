@@ -3,23 +3,29 @@
 \non_function{}
 \title{data from Example 7.6}
 \description{
-The \code{xmp07.06} data frame has 48 rows and 1 columns.
+  The \code{xmp07.06} data frame has 48 rows and 1 columns.
 }
 \format{
-This data frame contains the following columns:
-\describe{
-\item{C1}{
-a numeric vector
-}
-}
-}
-\details{
+  This data frame contains the following columns:
+  \describe{
+    \item{Voltage}{
+      the AC breakdown voltage (kV) of a circuit
+    }
+  }
 }
 \source{
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering
+    and the Sciences (5th ed)}, Duxbury
+
+  (1995), Testing practices for the AC breakdown voltage testing of
+  insulation liquids, \emph{IEEE Electrical Insulation Magazine},
+  21-26.
 }
 \examples{
-library(Devore5)
 data(xmp07.06)
+boxplot(xmp07.06,
+  main = "AC Breakdown Voltage (kV)")
+# t.test gives a 95\% confidence interval on the mean
+t.test(xmp07.06)   
 }
 \keyword{datasets}

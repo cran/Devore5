@@ -20,7 +20,6 @@
 	Engineering and the Sciences (5th ed)}, Duxbury
 }
 \examples{
-library(Devore5)
 data(xmp01.18)
 }
 \keyword{datasets}

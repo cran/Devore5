@@ -3,23 +3,32 @@
 \non_function{}
 \title{data from Example 7.11}
 \description{
-The \code{xmp07.11} data frame has 16 rows and 1 columns.
+  The \code{xmp07.11} data frame has 16 rows and 1 columns.
 }
 \format{
-This data frame contains the following columns:
-\describe{
-\item{C1}{
-a numeric vector
-}
-}
+  This data frame contains the following columns:
+  \describe{
+    \item{Elasticity}{
+      modulus of elasticity (MPa) obtained 1 minute after loading on
+      Scotch pine lumber specimens.
+    }
+  }
 }
 \details{
 }
 \source{
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering
+    and the Sciences (5th ed)}, Duxbury
+
+  (1996), Time-dependent bending properties of lumber, \emph{J. of
+    Testing and Evaluation}, 187-193.
 }
 \examples{
-library(Devore5)
 data(xmp07.11)
+boxplot(xmp07.11)
+qqnorm(xmp07.11)
+qqline(xmp07.11)
+t.test(xmp07.11)
 }
+\seealso{\code{\link{xmp09.10}}}
 \keyword{datasets}

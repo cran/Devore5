@@ -19,7 +19,6 @@
 	Engineering and the Sciences (5th ed)}, Duxbury
 }
 \examples{
-library(Devore5)
 data(xmp04.28)
 attach(xmp04.28)
 qqnorm(meas.err)   # compare to Figure 4.31, p. 188

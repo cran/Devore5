@@ -26,7 +26,6 @@
     \bold{82}, 705--711. 
 }
 \examples{
-library(Devore5)
 data(ex01.12)
 attach(ex01.12)
 boxplot(rate, main = "Boxplot of rate", ylab = "rate")

@@ -28,7 +28,6 @@
     Insulation", 43--55.
 }
 \examples{
-library(Devore5)
 data(xmp04.29)
 attach(xmp04.29)
 ## compare to Figure 4.33, page 190

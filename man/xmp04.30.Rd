@@ -24,7 +24,6 @@
     Electrical Insulation}, 70--78.
 }
 \examples{
-library(Devore5)
 data(xmp04.30)
 attach(xmp04.30)
 ## Try normal probability plot first

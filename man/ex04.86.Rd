@@ -20,7 +20,6 @@
 	Engineering and the Sciences (5th ed)}, Duxbury
 }
 \examples{
-library(Devore5)
 data(ex04.86)
 attach(ex04.86)
 ## Normal probability plot

@@ -23,7 +23,6 @@
 	Engineering and the Sciences (5th ed)}, Duxbury
 }
 \examples{
-library(Devore5)
 data(xmp01.06)
 attach(xmp01.06)
 summary(yardage)

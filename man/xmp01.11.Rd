@@ -3,31 +3,30 @@
 \non_function{}
 \title{data from Example 1.11}
 \description{
-    The \code{xmp01.11} data frame has 48 rows and 1 column of 
-    measured bond strengths of glass-fiber-reinforced rebars and
-    concrete.
+  The \code{xmp01.11} data frame has 48 rows and 1 column of 
+  measured bond strengths of glass-fiber-reinforced rebars and
+  concrete.
 }
 \format{
-    This data frame contains the following columns:
-    \describe{
-	\item{strength}{
-	    a numeric vector of bond strengths
-	}
+  This data frame contains the following columns:
+  \describe{
+    \item{strength}{
+      a numeric vector of bond strengths
     }
+  }
 }
 \details{
-    Data from a study to develop guidelines for bonding
-    glass-fiber-reinforced rebars to concrete.
+  Data from a study to develop guidelines for bonding
+  glass-fiber-reinforced rebars to concrete.
 }
 \source{
   Devore, J. L. (2000) \emph{Probability and Statistics for Engineering
-      and the Sciences (5th ed)}, Duxbury
+    and the Sciences (5th ed)}, Duxbury
 
   (1996) "Design recommendations for bond of GFRP rebars to concrete",
   \emph{Journal of Structural Engineering}, 247-254.
 }
 \examples{
-library(Devore5)
 data(xmp01.11)
 attach(xmp01.11)
 hist(strength, xlab = "Bond strength", col = "lightgray")

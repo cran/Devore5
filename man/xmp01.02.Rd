@@ -26,7 +26,6 @@
     properties of concrete", \emph{Magazine of Concrete Research}, 81--98.
 }
 \examples{
-library(Devore5)
 data(xmp01.02)
 attach(xmp01.02)
 hist(strength, xlab = "Flexural strength (MPa)",

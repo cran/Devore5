@@ -24,7 +24,6 @@
     examples, \emph{Technometrics}, 415--428.
 }
 \examples{
-library(Devore5)
 data(ex01.11)
 attach(ex01.11)
 stem(octane)              # compact

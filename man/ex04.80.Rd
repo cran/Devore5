@@ -23,7 +23,6 @@
     92--99.
 }
 \examples{
-library(Devore5)
 data(ex04.80)
 attach(ex04.80)
 boxplot(lifetime, ylab = "Lifetime (hr)",

@@ -1,4 +1,4 @@
-time gm.kg
+REMtime ethanol
 88.6 0
 73.2 0
 91.4 0

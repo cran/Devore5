@@ -23,7 +23,6 @@
     nitrate ceramic balls", \emph{Lubrication Engineering}, 153--159.
 }
 \examples{
-library(Devore5)
 data(ex04.84)
 attach(ex04.84)
 boxplot(loadlife, ylab = "Load-Life (million revs)",

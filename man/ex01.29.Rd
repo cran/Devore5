@@ -26,7 +26,6 @@ a factor with levels
   Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
 }
 \examples{
-library(Devore5)
 data(ex01.29)
 }
 \keyword{datasets}
