@@ -25,7 +25,7 @@
 
     (1996) "Maximum likelihood estimation in the 3-parameter Weibull
     Distribution", \emph{IEEE Transactions on Dielectrics and Electrical
-    Insulation", 43--55.
+    Insulation}, 43--55.
 }
 \examples{
 data(xmp04.29)

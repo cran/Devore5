@@ -22,7 +22,7 @@ Tukey(x, which=seq(along = tabs), ordered=FALSE, conf.level=0.95, ...)
    before taking differences.  If \code{ordered} is true then
    the calculated differences in the means will all be positive.  The
    significant differences will be those for which the \code{lwr} end
-   point is positive.
+   point is positive.}
  \item{conf.level}{A numeric value between zero and one giving the
    family-wise confidence level to use.}
  \item{\dots}{Optional additional arguments.  None are used at present.}

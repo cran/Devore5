@@ -1,4 +1,4 @@
-### $Id: Tukey.R,v 1.2 2000/09/21 13:34:18 bates Exp $
+### $Id: Tukey.R,v 1.3 2001/05/12 19:02:28 bates Exp $
 ###
 ###               Tukey multiple comparisons for R
 ###
