@@ -26,9 +26,9 @@
 \examples{
 data(xmp07.11)
 boxplot(xmp07.11)
-qqnorm(xmp07.11)
-qqline(xmp07.11)
-t.test(xmp07.11)
+with(xmp07.11, qqnorm(Elasticity))
+with(xmp07.11, qqline(Elasticity))
+with(xmp07.11, t.test(Elasticity))
 }
 \seealso{\code{\link{xmp09.10}}}
 \keyword{datasets}

@@ -22,8 +22,8 @@
 \examples{
 data(xmp07.15)
 boxplot(xmp07.15, main = "Breakdown voltage")
-qqnorm(xmp07.15, main = "Breakdown voltage")
-qqline(xmp07.15)
+with(xmp07.15, qqnorm(voltage, main = "Breakdown voltage"))
+with(xmp07.15, qqline(voltage))
 attach(xmp07.15)
 var(voltage) * (length(voltage) - 1)/
   qchisq(c(0.975, 0.025), df = length(voltage) - 1)
