@@ -1,33 +1,27 @@
 \name{ex11.10}
 \alias{ex11.10}
-\non_function{}
+\docType{data}
 \title{data from exercise 11.10}
 \description{
-The \code{ex11.10} data frame has 10 rows and 4 columns.
+  Strength of concrete according to batch and test method
 }
+\usage{data(ex11.10)}
 \format{
-This data frame contains the following columns:
-\describe{
-\item{Batch}{
-a numeric vector
+  A data frame with 30 observations on the following 3 variables.
+  \describe{
+    \item{strength}{a numeric vector of compressive strength (MPa)}
+    \item{Method}{a factor with levels \code{A} \code{B} \code{C}}
+    \item{Batch}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6} \code{7} \code{8} \code{9} \code{10}}
+  }
 }
-\item{Method.A}{
-a numeric vector
-}
-\item{Method.B}{
-a numeric vector
-}
-\item{Method.C}{
-a numeric vector
-}
-}
-}
-\details{
-}
+%\details{}
 \source{
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+  Devore, J. L. (2003) \emph{Probability and Statistics for Engineering
+    and the Sciences (6th ed)}, Duxbury
 }
+%\references{}
 \examples{
 data(ex11.10)
+xtabs(strength ~ Batch + Method, data = ex11.10)
 }
 \keyword{datasets}

@@ -18,10 +18,10 @@
     \item{x1x2}{
       the interaction of limestone powder and water-cement ratio.
     }
-    \item{28-day.compt.str..(Mpa)}{
+    \item{strength}{
       the 28-day compressive strength (MPa).
     }
-    \item{Absorbability.(\%)}{
+    \item{absorbability}{
       the absobability (\%).
     }
   }

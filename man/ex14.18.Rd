@@ -8,7 +8,7 @@ The \code{ex14.18} data frame has 5 rows and 2 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{Rate.(per.day)}{
+\item{Rate..per.day.}{
 a factor with levels
 \code{.100-below .150} 
 \code{.150-below .200} 

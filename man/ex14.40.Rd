@@ -15,10 +15,10 @@ a factor with levels
 \code{Football} 
 \code{Hockey} 
 }
-\item{Leader Wins}{
+\item{Leader.Wins}{
 a numeric vector
 }
-\item{Leader Loses}{
+\item{Leader.Loses}{
 a numeric vector
 }
 }

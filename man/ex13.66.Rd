@@ -8,10 +8,10 @@ The \code{ex13.66} data frame has 9 rows and 3 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{x1.(in.)}{
+\item{x1..in..}{
 a numeric vector
 }
-\item{x2.(in.)}{
+\item{x2..in..}{
 a numeric vector
 }
 \item{y}{

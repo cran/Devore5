@@ -8,10 +8,10 @@ The \code{ex13.64} data frame has 16 rows and 2 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{Log(edges)}{
+\item{Log.edges.}{
 a numeric vector
 }
-\item{Log(time)}{
+\item{Log.time.}{
 a numeric vector
 }
 }

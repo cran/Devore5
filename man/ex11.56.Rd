@@ -8,16 +8,16 @@ The \code{ex11.56} data frame has 30 rows and 3 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{C1}{
+\item{Rating}{
 a numeric vector
 }
-\item{C2}{
+\item{pH}{
 a factor with levels
 \code{pH 3} 
 \code{pH 5.5} 
 \code{pH 7} 
 }
-\item{C3}{
+\item{Health}{
 a factor with levels
 \code{Diseased} 
 \code{Healthy} 

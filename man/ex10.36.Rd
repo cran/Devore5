@@ -8,19 +8,19 @@ The \code{ex10.36} data frame has 4 rows and 5 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{L/D}{
+\item{L.D}{
 a numeric vector
 }
 \item{R}{
 a numeric vector
 }
-\item{R/L}{
+\item{R.L}{
 a numeric vector
 }
 \item{C}{
 a numeric vector
 }
-\item{C/L}{
+\item{C.L}{
 a numeric vector
 }
 }

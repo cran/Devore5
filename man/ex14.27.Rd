@@ -13,13 +13,13 @@ a factor with levels
 \code{Men} 
 \code{Women} 
 }
-\item{L>R}{
+\item{L.R}{
 a numeric vector
 }
-\item{L=R}{
+\item{L.R.1}{
 a numeric vector
 }
-\item{L<R}{
+\item{L.R.2}{
 a numeric vector
 }
 \item{Sample.size}{

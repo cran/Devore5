@@ -14,7 +14,7 @@ a numeric vector
 \item{Isotopic.method}{
 a numeric vector
 }
-\item{Test-weighing.method}{
+\item{Test.weighing.method}{
 a numeric vector
 }
 \item{Difference}{

@@ -8,13 +8,13 @@ The \code{ex09.77} data frame has 5 rows and 3 columns.
 \format{
 This data frame contains the following columns:
 \describe{
-\item{Twist.multiple}{
+\item{Twist}{
 a numeric vector
 }
-\item{Control.strength}{
+\item{Control}{
 a numeric vector
 }
-\item{Heated.strength}{
+\item{Heated}{
 a numeric vector
 }
 }

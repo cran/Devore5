@@ -1,6 +1,6 @@
 \name{ex01.32}
 \alias{ex01.32}
-\non_function{}
+\docType{data}
 \title{data from exercise 1.32}
 \description{
 The \code{ex01.32} data frame has 14 rows and 2 columns.
@@ -11,15 +11,14 @@ This data frame contains the following columns:
 \item{Value}{
 a numeric vector
 }
-\item{Cumulative.\%}{
-a numeric vector
+\item{Cumulative}{
+a numeric vector of cumulative percentages
 }
 }
 }
-\details{
-}
+%\details{}
 \source{
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+  Devore, J. L. (2003) \emph{Probability and Statistics for Engineering and the Sciences (6th ed)}, Duxbury
 }
 \examples{
 data(ex01.32)

@@ -14,13 +14,13 @@ a numeric vector
 \item{xwl}{
 a numeric vector
 }
-\item{xwl - 40.15}{
+\item{xwl...40.15}{
 a numeric vector
 }
 \item{dl}{
 a numeric vector
 }
-\item{xwl - 39.85}{
+\item{xwl...39.85}{
 a numeric vector
 }
 \item{el}{

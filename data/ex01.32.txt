@@ -1,4 +1,4 @@
-Value	Cumulative.%
+Value	Cumulative
 0	0
 150	19.3
 300	37.6
