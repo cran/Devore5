@@ -1,3 +1,8 @@
+2001-01-18  Douglas Bates  <bates@stat.wisc.edu>
+
+	* R/Tukey.R: Modified the plot.Tukey method to pass graphics
+	parameters on to the graphics function calls.4
+
 2000-05-07  Douglas Bates  <bates@stat.wisc.edu>
 
 	* R/Tukey.R: Added a generic and an aov method for Tukey multiple

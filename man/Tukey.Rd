@@ -53,7 +53,7 @@ Tukey(x, which=seq(along = tabs), ordered=FALSE, conf.level=0.95, ...)
   difference in the observed means, \code{lwr} giving the lower
   end point of the interval, and \code{upr} giving the upper end point.
 }
-\author{D. M. Bates}
+\author{Douglas Bates \email{bates@stat.wisc.edu}}
 \seealso{\code{\link{qtukey}}, \code{\link{model.tables}}}
 \examples{
 data(xmp10.01)
@@ -61,4 +61,5 @@ fm1 <- aov(strength ~ type, data = xmp10.01)
 Tukey(fm1)
 Tukey(fm1, ord = TRUE, conf = 0.9)
 }
-\keyword{models, regression}
+\keyword{models}
+\keyword{design}

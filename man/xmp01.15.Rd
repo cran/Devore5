@@ -24,7 +24,7 @@ attach(xmp01.15)
 summary(lifetime)              # produces mean, median, etc.
 mean(lifetime, trim = 0.1)     # 10\% trimmed mean
 mean(lifetime, trim = 0.2)     # 20\% trimmed mean
-dotplot(lifetime)
+dotchart(lifetime)
 hist(lifetime)                 # display a histogram
 rug(lifetime)                  # add the data
 abline(v = median(lifetime), col = 2, lty = 2)
