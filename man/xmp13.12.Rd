@@ -3,34 +3,36 @@
 \non_function{}
 \title{data from Example 13.12}
 \description{
-  The \code{xmp13.12} data frame has 9 rows and 5 columns.
+  The \code{xmp13.12} data frame has 9 rows and 5 columns of data on
+  characteristics of concrete.
 }
 \format{
   This data frame contains the following columns:
   \describe{
     \item{x1}{
-      a numeric vector
+      the \% limestone powder.
     }
     \item{x2}{
-      a numeric vector
+      the water-cement ratio.
     }
     \item{x1x2}{
-      a numeric vector
+      the interaction of limestone powder and water-cement ratio.
     }
     \item{28-day.compt.str..(Mpa)}{
-      a numeric vector
+      the 28-day compressive strength (MPa).
     }
     \item{Absorbability.(\%)}{
-      a numeric vector
+      the absobability (\%).
     }
   }
 }
-\details{
-}
 \source{
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering
+    and the Sciences (5th ed)}, Duxbury
 }
 \examples{
 data(xmp13.12)
+fm1 <- lm(strength ~ x1 * x2, data = xmp13.12)
+summary(fm1)
 }
 \keyword{datasets}

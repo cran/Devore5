@@ -1,3 +1,8 @@
+2000-05-07  Douglas Bates  <bates@stat.wisc.edu>
+
+	* R/Tukey.R: Added a generic and an aov method for Tukey multiple
+	comparisons.
+
 2000-02-07  Douglas Bates  <bates@stat.wisc.edu>
 
 	* DESCRIPTION (Date): Escaped the % characters in the .Rd files.
