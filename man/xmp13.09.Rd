@@ -1,6 +1,6 @@
 \name{xmp13.09}
 \alias{xmp13.09}
-\non_function{}
+\docType{data}
 \title{data from Example 13.9}
 \description{
   The \code{xmp13.09} data frame has 8 rows and 2 columns of data on
@@ -17,9 +17,9 @@
     }
   }
 }
-
-  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering
-    and the Sciences (5th ed)}, Duxbury 
+\source{
+  Devore, J. L. (2003) \emph{Probability and Statistics for Engineering
+    and the Sciences (6th ed)}, Duxbury 
 
   (1971), "A method for improving the accuracy of polynomial regression
   analysis",  \emph{J. Quality Technology}, 149--155.
