@@ -1,0 +1,36 @@
+\name{ex11.56}
+\alias{ex11.56}
+\non_function{}
+\title{data from exercise 11.56}
+\description{
+The \code{ex11.56} data frame has 30 rows and 3 columns.
+}
+\format{
+This data frame contains the following columns:
+\describe{
+\item{C1}{
+a numeric vector
+}
+\item{C2}{
+a factor with levels
+\code{pH 3} 
+\code{pH 5.5} 
+\code{pH 7} 
+}
+\item{C3}{
+a factor with levels
+\code{Diseased} 
+\code{Healthy} 
+}
+}
+}
+\details{
+}
+\source{
+  Devore, J. L. (2000) \emph{Probability and Statistics for Engineering and the Sciences (5th ed)}, Duxbury
+}
+\examples{
+library(Devore5)
+data(ex11.56)
+}
+\keyword{datasets}
